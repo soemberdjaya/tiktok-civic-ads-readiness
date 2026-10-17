@@ -192,9 +192,12 @@ export function VideoAudit() {
                       ))}
                     </div>
                     <div className="relative h-[26px]">
-                      {timed.map((f) => {
+                      {timed.map((f, i) => {
                         if (f.location.kind !== 'video') return null;
                         const on = s.review.selected === f.id;
+                        // Markers that start within a second of an earlier one are nudged right so none hide.
+                        const start = f.location.start;
+                        const stack = timed.slice(0, i).filter((g) => g.location.kind === 'video' && Math.abs(g.location.start - start) < 1).length;
                         return (
                           <button
                             key={f.id}
@@ -202,7 +205,7 @@ export function VideoAudit() {
                             onClick={() => s.reviewActions.select(f.id)}
                             aria-label={`Jump to ${formatTime(f.location.start)}`}
                             className="absolute top-0.5 size-[22px] -translate-x-1/2 cursor-pointer border-0 text-xs font-bold text-white"
-                            style={{ left: pct(f.location.start), background: on ? 'var(--color-primary)' : 'var(--color-ink)' }}
+                            style={{ left: pct(start), marginLeft: stack * 24, zIndex: on ? 1 : undefined, background: on ? 'var(--color-primary)' : 'var(--color-ink)' }}
                           >
                             {sorted.indexOf(f) + 1}
                           </button>

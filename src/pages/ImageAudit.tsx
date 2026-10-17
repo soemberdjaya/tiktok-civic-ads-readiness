@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Finding, ImageInput } from '../types';
 import { Layout, Footer } from '../ui/Layout';
 import { AuditChrome } from '../ui/AuditChrome';
@@ -55,6 +55,12 @@ export function ImageAudit() {
     s.setInput((i) => ({ ...i, slides: i.slides.filter((_, k) => k !== n) }));
     setSlide((v) => Math.max(0, v > n ? v - 1 : v));
   };
+
+  // Show the slide of the selected finding, including the one auto-selected when a result arrives.
+  const selectedSlide = sorted.find((f) => f.id === s.review.selected && f.location.kind === 'image')?.location;
+  useEffect(() => {
+    if (selectedSlide?.kind === 'image') setSlide(selectedSlide.slide - 1);
+  }, [selectedSlide]);
 
   const select = (id: string | null, from: 'panel' | 'image') => {
     s.reviewActions.select(id);

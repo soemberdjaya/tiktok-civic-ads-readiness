@@ -41,6 +41,15 @@ paste a script / upload images / upload a video
 - **Built not to game review.** Suggestions only neutralise or remove. A deterministic detector catches party and official names in wordplay or initials, and rejects any suggestion that disguises them. If neutralising kills the core message, it suggests posting organically instead.
 - **Your data stays yours.** History lives in your browser (IndexedDB), with JSON export and one-click delete.
 
+## Screenshots
+
+| Image audit | Video audit |
+|---|---|
+| <img src="docs/assets/audit-image-example.png" alt="Image audit of a fictional two-slide carousel: numbered boxes on the headline and subtitle of slide 2, with the advocacy clause and a neutral rewrite in the result panel" width="440" /> | <img src="docs/assets/audit-video-example.png" alt="Video audit of a fictional eight-second clip: numbered markers on a timeline with frame, on-screen text, and audio tracks, and an election call to action flagged in the audio" width="440" /> |
+| Numbered boxes mark the risky part of each slide. The caption is checked too. | Findings sit on a timeline across frames, on-screen text, and audio. |
+
+The text audit at the top is a real run on DeepSeek. The image and video examples show the real interface with illustrative model responses, because those modes have not yet been run against a vision model. All example content is fictional.
+
 ## Quick start
 
 1. **Clone and run**
