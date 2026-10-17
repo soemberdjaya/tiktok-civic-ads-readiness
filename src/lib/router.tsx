@@ -1,6 +1,6 @@
 import { useEffect, useState, type AnchorHTMLAttributes, type MouseEvent } from 'react';
 
-/** Tiny History API router. BASE_URL = '/tiktok-ads/' by default. */
+/** Tiny History API router. BASE_URL = '/tiktok-civic-ad/' by default. */
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 export function currentRoute(): { path: string; query: URLSearchParams } {

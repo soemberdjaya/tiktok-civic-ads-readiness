@@ -58,7 +58,7 @@ The text audit at the top is a real run on DeepSeek. The image and video example
    git clone https://github.com/soemberdjaya/tiktok-civic-ads-readiness.git
    cd tiktok-civic-ads-readiness
    pnpm install
-   pnpm dev          # http://localhost:5173/tiktok-ads/
+   pnpm dev          # http://localhost:5173/tiktok-civic-ad/
    ```
 
 2. **Set up a model.** On first open, the right panel asks for a provider and API key. DeepSeek is the cheapest place to start. Create a key just for this tool and set a spending limit.
@@ -119,7 +119,7 @@ pnpm eval --provider deepseek      # labelled eval set, with your own key
 
 ## Deploy
 
-The build outputs `dist/tiktok-ads/`, ready for Vercel (`vercel.json` included), Cloudflare Pages, or GitHub Pages. It can also be served at `soedja.com/tiktok-ads` through a rewrite. See [docs/deploy.md](docs/deploy.md).
+The build outputs `dist/tiktok-civic-ad/`, ready for Vercel (`vercel.json` included), Cloudflare Pages, or GitHub Pages. It can also be served at `soedja.com/tiktok-civic-ad` through a rewrite. See [docs/deploy.md](docs/deploy.md).
 
 The production build sets a strict Content Security Policy that only allows the built-in provider domains. Add a custom endpoint or proxy at build time:
 

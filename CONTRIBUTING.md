@@ -2,7 +2,7 @@
 
 ```bash
 pnpm install
-pnpm dev     # http://localhost:5173/tiktok-ads/
+pnpm dev     # http://localhost:5173/tiktok-civic-ad/
 pnpm test
 ```
 

@@ -1,22 +1,22 @@
 # Deploy
 
-The build outputs `dist/tiktok-ads/`, so the URL is the same wherever it is hosted: `<domain>/tiktok-ads/`.
+The build outputs `dist/tiktok-civic-ad/`, so the URL is the same wherever it is hosted: `<domain>/tiktok-civic-ad/`.
 
-## Option A: soedja.com/tiktok-ads (recommended)
+## Option A: soedja.com/tiktok-civic-ad (recommended)
 
 1. Deploy this repo to Vercel as a separate project. `vercel.json` already configures the build, the SPA fallback, and asset caching.
-   The result is something like `https://tiktok-civic-ads-readiness.vercel.app/tiktok-ads/`.
+   The result is something like `https://tiktok-civic-ads-readiness.vercel.app/tiktok-civic-ad/`.
 2. In the soedjacom project, set the environment variable:
 
    ```
-   TIKTOK_ADS_ORIGIN=https://tiktok-civic-ads-readiness.vercel.app
+   CIVIC_AD_ORIGIN=https://tiktok-civic-ads-readiness.vercel.app
    ```
 
-3. Redeploy soedjacom. `next.config.ts` rewrites `/tiktok-ads/*` to that origin, and `middleware.ts` excludes `/tiktok-ads` from next-intl locale routing.
+3. Redeploy soedjacom. `next.config.ts` rewrites `/tiktok-civic-ad/*` to that origin, and `middleware.ts` excludes `/tiktok-civic-ad` from next-intl locale routing.
 
-Without `TIKTOK_ADS_ORIGIN`, the rewrite is off and soedjacom is unchanged.
+Without `CIVIC_AD_ORIGIN`, the rewrite is off and soedjacom is unchanged.
 
-Tested locally on 17 Oct 2026: soedjacom (`next dev`) plus a production build of the app plus a real DeepSeek audit through `/tiktok-ads`, with the production CSP enabled.
+Tested locally on 17 Oct 2026: soedjacom (`next dev`) plus a production build of the app plus a real DeepSeek audit through `/tiktok-civic-ad`, with the production CSP enabled.
 
 ## Option B: self-host
 
@@ -32,6 +32,6 @@ At the domain root: `VITE_BASE=/ pnpm build`.
 
 | Variable | Value |
 |---|---|
-| `VITE_BASE` | Base path. Default `/tiktok-ads/`. |
+| `VITE_BASE` | Base path. Default `/tiktok-civic-ad/`. |
 | `VITE_PROXY_URL` | URL of `proxy/worker.js`. Enables the **Fetch** button for the landing page and is added to the CSP automatically. |
 | `VITE_EXTRA_CONNECT_SRC` | Extra domains for the CSP `connect-src`, such as a custom endpoint. Separate with spaces. |

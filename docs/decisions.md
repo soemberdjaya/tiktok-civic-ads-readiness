@@ -17,7 +17,7 @@ Answers to the open questions in the product spec (16 Oct 2026).
 
 | Provider | CORS | Tested |
 |---|---|---|
-| DeepSeek | Allowed for GET `/models` and POST `/chat/completions` | Yes, 17 Oct 2026, with a real key, both directly and through soedja.com/tiktok-ads |
+| DeepSeek | Allowed for GET `/models` and POST `/chat/completions` | Yes, 17 Oct 2026, with a real key, both directly and through soedja.com/tiktok-civic-ad |
 | OpenAI | Not tested | — |
 | Gemini | Not tested | — |
 | OpenRouter | Not tested | — |

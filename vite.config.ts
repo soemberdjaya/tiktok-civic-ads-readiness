@@ -83,7 +83,7 @@ export default defineConfig(({ mode }) => {
   const extra = (env.VITE_EXTRA_CONNECT_SRC ?? '').split(/\s+/).filter(Boolean);
   // The proxy for auto-fetching landing pages is allowed in the CSP.
   if (env.VITE_PROXY_URL) extra.push(new URL(env.VITE_PROXY_URL).origin);
-  const base = env.VITE_BASE ?? '/tiktok-ads/';
+  const base = env.VITE_BASE ?? '/tiktok-civic-ad/';
   return {
     base,
     build: { outDir: 'dist' + base.replace(/\/$/, ''), emptyOutDir: true },
