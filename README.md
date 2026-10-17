@@ -1,7 +1,7 @@
 # Civic Ad Readiness
 
 <p align="center">
-  <img src="docs/assets/screenshot.png" alt="A text audit of a fictional Indonesian NGO ad: the risky sentences are underlined, and the result panel shows 'Cannot be submitted', the TikTok policy clause behind each finding, and a neutral rewrite to apply" width="900" />
+  <img src="docs/assets/audit-text-example.png" alt="A text audit of a fictional Indonesian NGO ad: the risky sentences are underlined, and the result panel shows 'Cannot be submitted', the TikTok policy clause behind each finding, and a neutral rewrite to apply" width="900" />
 </p>
 
 <p align="center"><em>Check a TikTok ad before TikTok does. Runs in your browser, with your own AI key.</em></p>
