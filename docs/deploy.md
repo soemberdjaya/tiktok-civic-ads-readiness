@@ -16,7 +16,7 @@ The build outputs `dist/tiktok-civic-ad/`, so the URL is the same wherever it is
 
 Without `CIVIC_AD_ORIGIN`, the rewrite is off and soedjacom is unchanged.
 
-Tested locally on 17 Oct 2026: soedjacom (`next dev`) plus a production build of the app plus a real DeepSeek audit through `/tiktok-civic-ad`, with the production CSP enabled.
+Live since 17 Oct 2026 at https://soedja.com/tiktok-civic-ad, proxied to https://tiktok-civic-ads-readiness.vercel.app. Tested locally on 17 Oct 2026: soedjacom (`next dev`) plus a production build of the app plus a real DeepSeek audit through `/tiktok-civic-ad`, with the production CSP enabled.
 
 ## Option B: self-host
 

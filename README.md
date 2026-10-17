@@ -6,6 +6,8 @@
 
 <p align="center"><em>Check a TikTok ad before TikTok does. Runs in your browser, with your own AI key.</em></p>
 
+<p align="center"><strong><a href="https://soedja.com/tiktok-civic-ad">Open the app → soedja.com/tiktok-civic-ad</a></strong></p>
+
 <p align="center">
   <a href="https://github.com/soemberdjaya/tiktok-civic-ads-readiness/actions/workflows/test.yml"><img src="https://github.com/soemberdjaya/tiktok-civic-ads-readiness/actions/workflows/test.yml/badge.svg" alt="Tests" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-161823" alt="MIT license" /></a>
@@ -52,7 +54,7 @@ The text audit at the top is a real run on DeepSeek. The image and video example
 
 ## Quick start
 
-1. **Clone and run**
+1. **Open [soedja.com/tiktok-civic-ad](https://soedja.com/tiktok-civic-ad)**, or run it yourself:
 
    ```bash
    git clone https://github.com/soemberdjaya/tiktok-civic-ads-readiness.git
