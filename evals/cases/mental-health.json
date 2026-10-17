@@ -1,0 +1,20 @@
+{
+  "id": "mental-health",
+  "mode": "text",
+  "input": {
+    "script": "Merasa cemas terus? Ini lima cara sederhana merawat kesehatan mental.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

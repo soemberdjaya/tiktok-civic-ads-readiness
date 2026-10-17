@@ -1,0 +1,12 @@
+id: tiktok.ngo-mda-2026-08
+title: "TikTok: NGO MDA Requirement Update August 2026"
+url: https://ads.tiktok.com/help/article/ngo-mda-requirement-update-august-2026?lang=en
+jurisdiction: tiktok
+source_updated: 2026-09
+bundled_at: 2026-10-17
+clauses:
+  - key: tiktok.ngo-mda-2026-08.transparency
+    rubric: [K4]
+    kind: summary
+    text: "In Indonesia and several Southeast Asian markets, NGOs may use campaign-based reports or the organisation’s official website as transparency documents, still under strict compliance with ad policies."
+    applies_to: [text, image, video]

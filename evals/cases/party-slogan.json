@@ -1,0 +1,23 @@
+{
+  "id": "party-slogan",
+  "mode": "text",
+  "input": {
+    "script": "Bersama Gerindra, wujudkan Indonesia emas.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+id: id.permen-komdigi-9-2026
+title: "Minister of Communication and Digital Affairs Regulation No. 9 of 2026 implementing PP 17/2025 (Permen Komdigi 9/2026)"
+url: https://peraturan.go.id/id/permenkomdigi-no-9-tahun-2026
+# The HTML page changes on every load; the rule watcher uses the official PDF.
+watch_url: https://peraturan.go.id/files/2009020332-no-9-tahun-2026.pdf
+jurisdiction: id
+source_updated: 2026-03
+bundled_at: 2026-10-17
+clauses:
+  - key: id.permen-komdigi-9-2026.under-16
+    rubric: [L4, F8]
+    kind: summary
+    text: "Art. 30: social media is classed as high risk, and providers must deactivate accounts of children under 16. Content for or targeting this age group is risky."
+    applies_to: [text, image, video]

@@ -1,0 +1,12 @@
+id: tiktok.political-update-2026-06
+title: "TikTok: Update to Political Advertising (June 2026)"
+url: https://ads.tiktok.com/help/article/update-to-political-advertising-june-2026?lang=en
+jurisdiction: tiktok
+source_updated: 2026-07
+bundled_at: 2026-10-17
+clauses:
+  - key: tiktok.political-update-2026-06.landing
+    rubric: [K7, F4]
+    kind: summary
+    text: "Since June 2026, landing pages may reference otherwise prohibited parties, figures, or content as long as that is not the page’s primary focus. Ads remain subject to strict compliance with TikTok ad policies."
+    applies_to: [text, image, video]

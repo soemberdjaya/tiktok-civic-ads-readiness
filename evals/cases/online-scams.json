@@ -1,0 +1,20 @@
+{
+  "id": "online-scams",
+  "mode": "text",
+  "input": {
+    "script": "Kenali tanda-tanda penipuan online dan cara melapor ke bank.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "accuse-individual",
+  "mode": "text",
+  "input": {
+    "script": "Budi Santoso, kepala desa Sukamaju, terbukti korupsi dana desa! Sebarkan!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "must": [
+      "L1"
+    ]
+  }
+}

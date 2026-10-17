@@ -1,0 +1,29 @@
+{
+  "id": "vid-sort-waste",
+  "mode": "video",
+  "input": {
+    "frames": [
+      "vid-sort-waste-0.jpg",
+      "vid-sort-waste-1.jpg",
+      "vid-sort-waste-2.jpg"
+    ],
+    "duration": 3,
+    "transcript": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "Tiga cara memilah sampah organik dan anorganik di rumah."
+      }
+    ],
+    "caption": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

@@ -1,0 +1,23 @@
+# The AI rules live on this page, not on the politics page.
+id: tiktok.misleading
+title: "TikTok Ads Policy: Misleading and false content"
+url: https://ads.tiktok.com/help/article/tiktok-ads-policy-misleading-and-false-content?lang=en
+jurisdiction: tiktok
+source_updated: 2026-04
+bundled_at: 2026-10-17
+clauses:
+  - key: tiktok.misleading.aigc-label
+    rubric: [F7, K5]
+    kind: quote
+    text: "If we identify AI-generated content that has not been disclosed, your ad will be rejected or restricted."
+    applies_to: [image, video]
+  - key: tiktok.misleading.voice-clone
+    rubric: [K5]
+    kind: quote
+    text: "Making the primary subject say something they didn't actually say, using AI voice-cloning."
+    applies_to: [video]
+  - key: tiktok.misleading.likeness
+    rubric: [K5, K1]
+    kind: quote
+    text: "We do not allow content that uses or promotes the misuse of the likeness (audio or visual) of a public figure without their permission"
+    applies_to: [image, video]

@@ -1,0 +1,19 @@
+{
+  "id": "img-save-water",
+  "mode": "image",
+  "input": {
+    "slides": [
+      "img-save-water.png"
+    ],
+    "caption": "Yuk hemat air!"
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

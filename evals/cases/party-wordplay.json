@@ -1,0 +1,23 @@
+{
+  "id": "party-wordplay",
+  "mode": "text",
+  "input": {
+    "script": "Anak muda makin dekat dengan G3rindra tahun ini.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+name: TikTok review result
+description: Share a real ad review result so the score weights can be tuned.
+title: "[Review result] "
+labels: [review-result]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. This data is used to tune the weights in the next release.
+        Do not include API keys, personal data, or material that is not yet cleared for publication.
+  - type: dropdown
+    id: result
+    attributes:
+      label: TikTok review result
+      options: [Approved, Rejected, Approved with restrictions]
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason from TikTok
+      description: Copy the rejection reason or notes from Ads Manager, if any.
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Material type
+      options: [Text, Image, Video]
+  - type: input
+    id: tool
+    attributes:
+      label: This tool's result
+      description: The status and score shown, plus the provider and model.
+      placeholder: "Needs revision, 62/100, DeepSeek deepseek-chat"
+  - type: textarea
+    id: content
+    attributes:
+      label: Material summary (optional)
+      description: Anonymize if needed. The full material is not required.

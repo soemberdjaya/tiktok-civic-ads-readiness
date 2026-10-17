@@ -1,0 +1,23 @@
+{
+  "id": "democracy-hashtag",
+  "mode": "text",
+  "input": {
+    "script": "Ramaikan tagar #KawalDemokrasi di linimasamu hari ini.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F9",
+      "K3"
+    ]
+  }
+}

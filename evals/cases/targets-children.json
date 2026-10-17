@@ -1,0 +1,23 @@
+{
+  "id": "targets-children",
+  "mode": "text",
+  "input": {
+    "script": "Ayo belajar tentang hak anak lewat kuis seru!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 13,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F8",
+      "L4"
+    ]
+  }
+}

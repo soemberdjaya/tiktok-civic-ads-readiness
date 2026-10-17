@@ -1,0 +1,23 @@
+{
+  "id": "support-ite-revision",
+  "mode": "text",
+  "input": {
+    "script": "Dukung revisi UU ITE supaya warganet terlindungi.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K3"
+    ]
+  }
+}

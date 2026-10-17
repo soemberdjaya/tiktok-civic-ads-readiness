@@ -1,0 +1,173 @@
+@import 'tailwindcss';
+
+/* TikTok Sans, OFL license, self-hosted. See public/fonts/OFL.txt. */
+@font-face {
+  font-family: 'TikTok Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/tiktok-sans-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'TikTok Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/tiktok-sans-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@theme {
+  --font-sans: 'TikTok Sans', Arial, sans-serif;
+  --color-ink: #161823;
+  --color-ink-2: #3e4049;
+  --color-muted: #6b6d74;
+  --color-line: #e8e8ea;
+  --color-line-2: #f0f0f2;
+  --color-page: #f7f7f8;
+  --color-panel: #ffffff;
+  --color-hover: #fafafb;
+  --color-select: #f4f4f5;
+  --color-input: #d5d5d9;
+  --color-primary: #e0123f;
+  --color-primary-hover: #c20f37;
+  --color-ok: #0b7a43;
+  --color-warn: #a86a00;
+  --color-bad: #e0123f;
+  --color-blocked: #161823;
+  --color-cat-policy: #e0123f;
+  --color-cat-landing: #00838c;
+  --color-cat-law: #6e56cf;
+  --color-notice: #fff7e6;
+  --color-notice-line: #f2d8a7;
+  --color-danger-text: #b0002a;
+  --radius-ui: 4px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--color-page);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+    color: inherit;
+  }
+  a {
+    color: var(--color-ink);
+  }
+  a:hover {
+    color: var(--color-primary);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 1px;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 40px;
+    padding: 0 16px;
+    border-radius: var(--radius-ui);
+    border: 1px solid var(--color-input);
+    background: var(--color-panel);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn:hover {
+    background: var(--color-hover);
+  }
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    border: 0;
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 600;
+    padding: 0 18px;
+  }
+  .btn-primary:hover {
+    background: var(--color-primary-hover);
+  }
+  .btn-dark {
+    border: 0;
+    background: var(--color-ink);
+    color: #fff;
+    font-weight: 600;
+    min-height: 36px;
+    padding: 0 14px;
+  }
+  .btn-dark:hover {
+    background: #2b2d38;
+  }
+  .link-btn {
+    padding: 0;
+    border: 0;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .field {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 40px;
+    padding: 8px 10px;
+    border: 1px solid var(--color-input);
+    border-radius: var(--radius-ui);
+    background: var(--color-panel);
+  }
+  .field:focus {
+    outline: 2px solid var(--color-ink);
+    outline-offset: -1px;
+  }
+  .panel {
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-ui);
+  }
+}
+
+@keyframes slide {
+  from {
+    left: -33%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

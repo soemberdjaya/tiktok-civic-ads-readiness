@@ -1,0 +1,22 @@
+{
+  "id": "petition",
+  "mode": "text",
+  "input": {
+    "script": "Hasil survei kami jelas. Tanda tangani petisinya sekarang.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "must": [
+      "F3"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "push-back-bill",
+  "mode": "text",
+  "input": {
+    "script": "Kawal RUU Polri, suarakan pendapatmu!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K3"
+    ]
+  }
+}

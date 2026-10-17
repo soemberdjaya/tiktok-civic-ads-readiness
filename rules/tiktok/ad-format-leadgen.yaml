@@ -1,0 +1,27 @@
+id: tiktok.ad-format
+title: "TikTok Ads Policy: Ad format and functionality"
+url: https://ads.tiktok.com/help/article/tiktok-ads-policy-ad-format-and-functionality?lang=en
+jurisdiction: tiktok
+source_updated: 2026-04
+bundled_at: 2026-10-17
+clauses:
+  - key: tiktok.ad-format.political-data
+    rubric: [K6]
+    kind: quote
+    text: "Information about or revealing political opinions or political affiliations"
+    applies_to: [text, image, video]
+  - key: tiktok.ad-format.sensitive-data
+    rubric: [K6, F6]
+    kind: summary
+    text: "Lead ad forms may not ask for religious or philosophical beliefs, racial or ethnic origin, or exact date of birth and age, without written consent from a TikTok Sales Representative."
+    applies_to: [text, image, video]
+  - key: tiktok.ad-format.privacy-policy
+    rubric: [L3]
+    kind: quote
+    text: "Lead ads must include a privacy policy."
+    applies_to: [text, image, video]
+  - key: tiktok.ad-format.landing-gate
+    rubric: [L3, F4]
+    kind: quote
+    text: "Landing pages that require viewers to download additional programs or enter personal information in order to access the main content on the landing page"
+    applies_to: [text, image, video]

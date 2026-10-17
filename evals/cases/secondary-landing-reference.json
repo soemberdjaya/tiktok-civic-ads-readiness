@@ -1,0 +1,23 @@
+{
+  "id": "secondary-landing-reference",
+  "mode": "text",
+  "input": {
+    "script": "Baca hasil survei lengkap kami tentang kesehatan mental anak muda.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": "Hasil survei kesehatan mental 2026. Di bagian bawah: profil partai pendukung program ini."
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F4",
+      "K7"
+    ]
+  }
+}

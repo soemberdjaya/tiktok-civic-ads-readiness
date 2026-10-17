@@ -1,0 +1,24 @@
+{
+  "id": "campaign-merch",
+  "mode": "text",
+  "input": {
+    "script": "Kaos #2029GantiPresiden sudah tersedia, pesan sekarang!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "mustAny": [
+      "K8",
+      "K3"
+    ]
+  }
+}

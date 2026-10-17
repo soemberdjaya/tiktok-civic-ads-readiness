@@ -1,0 +1,23 @@
+{
+  "id": "polarisation",
+  "mode": "text",
+  "input": {
+    "script": "Kami lawan mereka: anak muda harus melawan para elite tua yang serakah.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F5",
+      "F1"
+    ]
+  }
+}

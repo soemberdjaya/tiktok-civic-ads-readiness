@@ -1,0 +1,22 @@
+{
+  "id": "parliament-judging",
+  "mode": "text",
+  "input": {
+    "script": "DPR lagi-lagi mengesahkan aturan tanpa mendengar rakyat.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "must": [
+      "F1"
+    ]
+  }
+}

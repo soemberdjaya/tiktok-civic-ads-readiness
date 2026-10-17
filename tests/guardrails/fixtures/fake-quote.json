@@ -1,0 +1,68 @@
+{
+  "description": "A finding quoting text not in the input is rejected by the validator, then the model is asked once more",
+  "mode": "text",
+  "input": {
+    "script": "Hasil survei kami: 7 dari 10 anak muda khawatir.",
+    "caption": "",
+    "cta": "Tanda tangani petisinya",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "responses": [
+    {
+      "findings": [
+        {
+          "key": "F3",
+          "confidence": 0.8,
+          "location": {
+            "kind": "text",
+            "quote": "Tolak RUU sekarang juga",
+            "slide": null,
+            "box": null,
+            "start": null,
+            "end": null,
+            "track": null
+          },
+          "evidence": "",
+          "why": "Made-up quote.",
+          "change": null,
+          "clause": "tiktok.politics.advocacy",
+          "removesCoreMessage": false
+        }
+      ]
+    },
+    {
+      "findings": [
+        {
+          "key": "F3",
+          "confidence": 0.8,
+          "location": {
+            "kind": "text",
+            "quote": "Tanda tangani petisinya",
+            "slide": null,
+            "box": null,
+            "start": null,
+            "end": null,
+            "track": null
+          },
+          "evidence": "",
+          "why": "A petition call is a call to civic action.",
+          "change": {
+            "from": "Tanda tangani petisinya",
+            "to": "Baca hasil surveinya"
+          },
+          "clause": "tiktok.politics.advocacy",
+          "removesCoreMessage": true
+        }
+      ]
+    }
+  ],
+  "expect": {
+    "band": "low",
+    "keys": [
+      "F3"
+    ],
+    "calls": 2,
+    "rejectedFirst": true
+  }
+}

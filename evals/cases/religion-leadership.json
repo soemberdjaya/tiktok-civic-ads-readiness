@@ -1,0 +1,23 @@
+{
+  "id": "religion-leadership",
+  "mode": "text",
+  "input": {
+    "script": "Orang dengan agama tertentu tidak cocok jadi pemimpin di negeri ini.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F6",
+      "L2"
+    ]
+  }
+}

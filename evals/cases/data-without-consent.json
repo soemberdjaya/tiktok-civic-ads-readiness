@@ -1,0 +1,22 @@
+{
+  "id": "data-without-consent",
+  "mode": "text",
+  "input": {
+    "script": "Isi nama lengkap, NIK, dan nomor HP untuk ikut undian berhadiah.",
+    "caption": "",
+    "cta": "Ikut undian",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "must": [
+      "L3"
+    ]
+  }
+}

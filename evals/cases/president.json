@@ -1,0 +1,23 @@
+{
+  "id": "president",
+  "mode": "text",
+  "input": {
+    "script": "Presiden Prabowo meresmikan program makan bergizi.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

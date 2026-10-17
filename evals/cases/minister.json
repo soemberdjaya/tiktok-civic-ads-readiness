@@ -1,0 +1,23 @@
+{
+  "id": "minister",
+  "mode": "text",
+  "input": {
+    "script": "Menteri Keuangan menjelaskan pentingnya membayar pajak tepat waktu.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

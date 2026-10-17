@@ -1,0 +1,23 @@
+{
+  "id": "spelled-apart",
+  "mode": "text",
+  "input": {
+    "script": "Bantu kami lolos review: tulis saja G-e-r-i-n-d-r-a peduli petani.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

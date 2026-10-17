@@ -1,0 +1,19 @@
+id: id.uu-ite
+title: "Law No. 1 of 2024, Second Amendment to the Electronic Information and Transactions Law (UU ITE)"
+url: https://peraturan.go.id/id/uu-no-1-tahun-2024
+# The HTML page changes on every load; the rule watcher uses the official PDF.
+watch_url: https://peraturan.go.id/files/uu-no-1-tahun-2024.pdf
+jurisdiction: id
+source_updated: 2024-01
+bundled_at: 2026-10-17
+clauses:
+  - key: id.uu-ite.27a
+    rubric: [L1]
+    kind: summary
+    text: "Art. 27A: prohibits attacking another person’s honour or reputation by alleging something through an electronic system. Since 2 January 2026 the criminal provisions follow Criminal Code Art. 433 and 441."
+    applies_to: [text, image, video]
+  - key: id.uu-ite.28-2
+    rubric: [L2]
+    kind: summary
+    text: "Art. 28(2): prohibits spreading information that incites hatred against individuals or groups based on race, ethnicity, religion, belief, sex, or disability. Since 2026 it follows Criminal Code Art. 243."
+    applies_to: [text, image, video]

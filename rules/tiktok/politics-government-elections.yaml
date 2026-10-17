@@ -1,0 +1,54 @@
+# Quotes (kind: quote) are copied verbatim from the source page, max 25 words.
+# Everything else is a summary (kind: summary).
+id: tiktok.politics
+title: "TikTok Ads Policy: Politics, Governments, and Elections"
+url: https://ads.tiktok.com/help/article/tiktok-ads-policy-politics-government-and-elections?lang=en
+jurisdiction: tiktok
+source_updated: 2026-07
+bundled_at: 2026-10-17
+clauses:
+  - key: tiktok.politics.ban
+    rubric: [K4]
+    kind: quote
+    text: "we do not allow paid political advertising … we prohibit advertising of any kind by political figures and entities."
+    applies_to: [text, image, video]
+  - key: tiktok.politics.parties
+    rubric: [K1]
+    kind: summary
+    text: "Prohibits referencing, promoting, or opposing political parties and people currently holding party leadership positions."
+    applies_to: [text, image, video]
+  - key: tiktok.politics.officials
+    rubric: [K1, F1]
+    kind: quote
+    text: "Referencing, promoting, or opposing: … Current executive, legislative, or judicial public officials"
+    applies_to: [text, image, video]
+  - key: tiktok.politics.merchandise
+    rubric: [K1, K8, F9]
+    kind: quote
+    text: "Referencing, promoting, or selling merchandise that features prohibited individuals, prohibited entities, or prohibited content, including campaign slogans, symbols, or logos"
+    applies_to: [text, image, video]
+  - key: tiktok.politics.elections
+    rubric: [K2]
+    kind: quote
+    text: "References to an upcoming or current election or referenda, including appeals for votes, voter registration, and promoting participation, are prohibited for all other advertisers."
+    applies_to: [text, image, video]
+  - key: tiktok.politics.advocacy
+    rubric: [K3, F2, F3, F5]
+    kind: quote
+    text: "ads that promote or oppose government policies or officials, track records, forms of governance, or political systems"
+    applies_to: [text, image, video]
+  - key: tiktok.politics.advocacy-elections
+    rubric: [K2, K3]
+    kind: summary
+    text: "Prohibits advocacy for or against past, current, or proposed elections, and referenda or other ballot measures."
+    applies_to: [text, image, video]
+  - key: tiktok.politics.proxies
+    rubric: [K4]
+    kind: quote
+    text: "Entities or individuals acting on behalf of prohibited advertisers"
+    applies_to: [text, image, video]
+  - key: tiktok.politics.landing
+    rubric: [K7, F4]
+    kind: quote
+    text: "provided the primary focus of the landing page is not prohibited content, entities, or individuals."
+    applies_to: [text, image, video]

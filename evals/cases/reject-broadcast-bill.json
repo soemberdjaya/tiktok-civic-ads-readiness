@@ -1,0 +1,23 @@
+{
+  "id": "reject-broadcast-bill",
+  "mode": "text",
+  "input": {
+    "script": "Tolak RUU Penyiaran! Kebebasan pers dipertaruhkan.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K3"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "img-carousel-polling-station",
+  "mode": "image",
+  "input": {
+    "slides": [
+      "img-carousel-1.png",
+      "img-carousel-2.png"
+    ],
+    "caption": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K2"
+    ]
+  }
+}

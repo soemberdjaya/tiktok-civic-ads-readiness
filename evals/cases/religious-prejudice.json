@@ -1,0 +1,22 @@
+{
+  "id": "religious-prejudice",
+  "mode": "text",
+  "input": {
+    "script": "Jangan percaya mereka yang beda agama soal urusan negara.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "must": [
+      "F6"
+    ]
+  }
+}

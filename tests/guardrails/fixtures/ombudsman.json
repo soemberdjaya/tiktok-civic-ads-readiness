@@ -1,0 +1,20 @@
+{
+  "description": "Public-service education without a political stance must not get a hard violation",
+  "mode": "text",
+  "input": {
+    "script": "Apa itu Ombudsman? Ini cara lapor pelayanan publik",
+    "caption": "",
+    "cta": "Pelajari",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "responses": [
+    {
+      "findings": []
+    }
+  ],
+  "expect": {
+    "band": "low",
+    "keys": []
+  }
+}

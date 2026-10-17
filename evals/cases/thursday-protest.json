@@ -1,0 +1,23 @@
+{
+  "id": "thursday-protest",
+  "mode": "text",
+  "input": {
+    "script": "Ikut aksi damai setiap Kamis sore di depan Istana.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F3",
+      "K3"
+    ]
+  }
+}

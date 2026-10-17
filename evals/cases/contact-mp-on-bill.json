@@ -1,0 +1,23 @@
+{
+  "id": "contact-mp-on-bill",
+  "mode": "text",
+  "input": {
+    "script": "Hubungi anggota DPR dapilmu dan minta mereka menolak RUU KUHAP.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K3"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "political-data-form",
+  "mode": "text",
+  "input": {
+    "script": "Isi formulir ini: partai mana yang kamu dukung di pemilu nanti?",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K6"
+    ]
+  }
+}

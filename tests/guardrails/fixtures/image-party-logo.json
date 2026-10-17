@@ -1,0 +1,49 @@
+{
+  "description": "An image with a party logo must be K1 with a box over the logo",
+  "mode": "image",
+  "slides": 2,
+  "responses": [
+    {
+      "findings": [
+        {
+          "key": "K1",
+          "confidence": 0.9,
+          "location": {
+            "kind": "image",
+            "quote": null,
+            "slide": 2,
+            "box": [
+              0.62,
+              0.18,
+              0.2,
+              0.12
+            ],
+            "start": null,
+            "end": null,
+            "track": null
+          },
+          "evidence": "Party logo on the jacket",
+          "why": "A party symbol is clearly visible in the photo.",
+          "change": null,
+          "clause": "tiktok.politics.merchandise",
+          "removesCoreMessage": false
+        }
+      ]
+    }
+  ],
+  "expect": {
+    "band": "blocked",
+    "keys": [
+      "K1"
+    ],
+    "box": {
+      "slide": 2,
+      "box": [
+        0.62,
+        0.18,
+        0.2,
+        0.12
+      ]
+    }
+  }
+}

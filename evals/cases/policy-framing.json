@@ -1,0 +1,23 @@
+{
+  "id": "policy-framing",
+  "mode": "text",
+  "input": {
+    "script": "Kebijakan baru ini jelas merugikan rakyat kecil. Kenali dampaknya sebelum terlambat.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "mustAny": [
+      "F2",
+      "K3"
+    ]
+  }
+}

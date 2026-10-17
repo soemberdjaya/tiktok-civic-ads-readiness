@@ -1,0 +1,20 @@
+{
+  "id": "save-electricity",
+  "mode": "text",
+  "input": {
+    "script": "Lima tips sederhana menghemat listrik di rumah.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

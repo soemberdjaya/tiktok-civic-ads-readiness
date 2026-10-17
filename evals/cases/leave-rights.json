@@ -1,0 +1,25 @@
+{
+  "id": "leave-rights",
+  "mode": "text",
+  "input": {
+    "script": "Hak pekerja: kamu berhak atas cuti tahunan minimal 12 hari kerja.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "notBand": "blocked",
+    "mustNot": [
+      "K1",
+      "K2",
+      "K3"
+    ]
+  }
+}

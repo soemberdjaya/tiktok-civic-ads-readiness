@@ -1,0 +1,44 @@
+{
+  "description": "A call to 'guard' a bill must be K3 and Cannot be submitted",
+  "mode": "text",
+  "input": {
+    "script": "Kawal RUU Polri, suarakan pendapatmu!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "responses": [
+    {
+      "findings": [
+        {
+          "key": "K3",
+          "confidence": 0.85,
+          "location": {
+            "kind": "text",
+            "quote": "Kawal RUU Polri, suarakan pendapatmu!",
+            "slide": null,
+            "box": null,
+            "start": null,
+            "end": null,
+            "track": null
+          },
+          "evidence": "Calls for a stance on a bill",
+          "why": "Urging people to take a stance on a bill is policy advocacy.",
+          "change": {
+            "from": "Kawal RUU Polri, suarakan pendapatmu!",
+            "to": "Pelajari isi revisi UU Polri."
+          },
+          "clause": "tiktok.politics.advocacy",
+          "removesCoreMessage": true
+        }
+      ]
+    }
+  ],
+  "expect": {
+    "band": "blocked",
+    "keys": [
+      "K3"
+    ]
+  }
+}

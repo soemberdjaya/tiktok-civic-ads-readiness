@@ -1,0 +1,23 @@
+{
+  "id": "party-chair",
+  "mode": "text",
+  "input": {
+    "script": "Ketua umum PDI Perjuangan Megawati menyampaikan pesan untuk anak muda.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

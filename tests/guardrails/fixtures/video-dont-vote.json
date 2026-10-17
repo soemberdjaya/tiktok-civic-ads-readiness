@@ -1,0 +1,46 @@
+{
+  "description": "A video saying 'don't vote for representatives who…' must be K2 timed on the audio track",
+  "mode": "video",
+  "duration": 30,
+  "transcript": [
+    {
+      "start": 10,
+      "end": 17,
+      "text": "Jangan pilih wakil yang dukung RUU ini."
+    }
+  ],
+  "responses": [
+    {
+      "findings": [
+        {
+          "key": "K2",
+          "confidence": 0.9,
+          "location": {
+            "kind": "video",
+            "quote": null,
+            "slide": null,
+            "box": null,
+            "start": 10,
+            "end": 17,
+            "track": "audio"
+          },
+          "evidence": "Jangan pilih wakil yang dukung RUU ini.",
+          "why": "A call related to choices in an election.",
+          "change": {
+            "from": "Jangan pilih wakil yang dukung RUU ini.",
+            "to": ""
+          },
+          "clause": "tiktok.politics.elections",
+          "removesCoreMessage": false
+        }
+      ]
+    }
+  ],
+  "expect": {
+    "band": "blocked",
+    "keys": [
+      "K2"
+    ],
+    "track": "audio"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "parliament-absent",
+  "mode": "text",
+  "input": {
+    "script": "DPR lagi-lagi bolos rapat paripurna. Malu nggak sih?",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "must": [
+      "F1"
+    ]
+  }
+}

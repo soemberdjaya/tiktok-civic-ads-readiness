@@ -1,0 +1,20 @@
+{
+  "id": "flood-donation",
+  "mode": "text",
+  "input": {
+    "script": "Salurkan donasi untuk korban banjir Demak lewat rekening resmi yayasan kami.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

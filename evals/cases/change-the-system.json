@@ -1,0 +1,23 @@
+{
+  "id": "change-the-system",
+  "mode": "text",
+  "input": {
+    "script": "Sistem demokrasi kita sudah gagal. Saatnya ganti sistem!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K3"
+    ]
+  }
+}

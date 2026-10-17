@@ -1,0 +1,23 @@
+{
+  "id": "digit-wordplay",
+  "mode": "text",
+  "input": {
+    "script": "Pilih P4N di pemilu nanti!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

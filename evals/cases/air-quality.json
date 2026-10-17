@@ -1,0 +1,20 @@
+{
+  "id": "air-quality",
+  "mode": "text",
+  "input": {
+    "script": "Cara cek kualitas udara di kotamu lewat aplikasi gratis.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "low"
+  }
+}

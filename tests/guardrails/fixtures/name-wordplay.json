@@ -1,0 +1,46 @@
+{
+  "description": "Party names in wordplay or initials are still K1, and suggestions must not keep the wordplay",
+  "mode": "text",
+  "input": {
+    "script": "Anak muda makin dekat dengan G3rindra dan P.D.I.P tahun ini.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "responses": [
+    {
+      "findings": [
+        {
+          "key": "K1",
+          "confidence": 0.8,
+          "location": {
+            "kind": "text",
+            "quote": "G3rindra",
+            "slide": null,
+            "box": null,
+            "start": null,
+            "end": null,
+            "track": null
+          },
+          "evidence": "Wordplay on Gerindra",
+          "why": "A party name written as wordplay.",
+          "change": {
+            "from": "G3rindra",
+            "to": "G*rindra"
+          },
+          "clause": "tiktok.politics.parties",
+          "removesCoreMessage": false
+        }
+      ]
+    }
+  ],
+  "expect": {
+    "band": "blocked",
+    "keys": [
+      "K1"
+    ],
+    "minLexicon": 1,
+    "noDisguisedChange": true
+  }
+}

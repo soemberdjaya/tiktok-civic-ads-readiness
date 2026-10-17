@@ -1,0 +1,7 @@
+name = "civic-ad-readiness-proxy"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Comma-separated, for example "https://soedja.com,http://localhost:5173"
+ALLOWED_ORIGINS = "http://localhost:5173"

@@ -1,0 +1,23 @@
+{
+  "id": "voter-registration",
+  "mode": "text",
+  "input": {
+    "script": "Pemilu 2029 makin dekat. Pastikan kamu sudah terdaftar sebagai pemilih.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K2"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+id: id.pp-17-2025
+title: "Government Regulation No. 17 of 2025 on Electronic System Governance for Child Protection (PP 17/2025, PP Tunas)"
+url: https://peraturan.go.id/id/pp-no-17-tahun-2025
+# The HTML page changes on every load; the rule watcher uses the official PDF.
+watch_url: https://peraturan.go.id/files/pp-no-17-tahun-2025.pdf
+jurisdiction: id
+source_updated: 2025-03
+bundled_at: 2026-10-17
+clauses:
+  - key: id.pp-17-2025.ads-to-children
+    rubric: [F8, L4]
+    kind: summary
+    text: "Art. 1, 4, 19: a child is anyone under 18. Ads aimed at children make a product count as accessed by children, and profiling children to offer products is prohibited."
+    applies_to: [text, image, video]

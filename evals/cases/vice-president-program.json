@@ -1,0 +1,23 @@
+{
+  "id": "vice-president-program",
+  "mode": "text",
+  "input": {
+    "script": "Gibran ajak anak muda ikut program magang nasional.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

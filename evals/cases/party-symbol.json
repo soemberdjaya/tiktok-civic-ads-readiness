@@ -1,0 +1,23 @@
+{
+  "id": "party-symbol",
+  "mode": "text",
+  "input": {
+    "script": "Dukung partai berlambang banteng moncong putih!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K1"
+    ]
+  }
+}

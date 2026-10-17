@@ -1,0 +1,24 @@
+{
+  "id": "party-survey",
+  "mode": "text",
+  "input": {
+    "script": "Isi survei singkat: partai apa yang akan kamu pilih? Dapatkan voucher belanja.",
+    "caption": "",
+    "cta": "Isi survei",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "mustAny": [
+      "K6",
+      "K2"
+    ]
+  }
+}

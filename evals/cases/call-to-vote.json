@@ -1,0 +1,23 @@
+{
+  "id": "call-to-vote",
+  "mode": "text",
+  "input": {
+    "script": "Jangan lupa datang ke TPS dan pilih calon yang peduli lingkungan!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K2"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tax-education",
+  "mode": "text",
+  "input": {
+    "script": "Begini cara menghitung pajak penghasilan untuk pekerja lepas.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "notBand": "blocked",
+    "mustNot": [
+      "K1",
+      "K2",
+      "K3"
+    ]
+  }
+}

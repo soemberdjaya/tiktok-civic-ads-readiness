@@ -1,0 +1,21 @@
+# Since 2 January 2026 the defamation and hate-speech offences in the ITE Law
+# are redirected to the Criminal Code (Law 1/2023 Art. 622(10)). See id/uu-ite.yaml.
+id: id.kuhp-2023
+title: "Law No. 1 of 2023 on the Criminal Code (UU 1/2023, KUHP)"
+url: https://peraturan.go.id/id/uu-no-1-tahun-2023
+# The HTML page changes on every load; the rule watcher uses the official PDF.
+watch_url: https://peraturan.go.id/files/uu1-2023.pdf
+jurisdiction: id
+source_updated: 2023-01
+bundled_at: 2026-10-17
+clauses:
+  - key: id.kuhp-2023.defamation
+    rubric: [L1]
+    kind: summary
+    text: "Art. 433, 434, 441: attacking a person’s honour or reputation by alleging something publicly (defamation), or an allegation that cannot be proven (slander). Penalties increase when done through information technology. Prosecuted on complaint."
+    applies_to: [text, image, video]
+  - key: id.kuhp-2023.hostility
+    rubric: [L2, F6]
+    kind: summary
+    text: "Art. 242–243: publicly expressing or spreading hostility, hatred, or contempt toward population groups based on race, nationality, ethnicity, skin colour, religion, sex, or disability."
+    applies_to: [text, image, video]

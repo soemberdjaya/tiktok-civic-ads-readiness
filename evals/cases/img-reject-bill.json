@@ -1,0 +1,22 @@
+{
+  "id": "img-reject-bill",
+  "mode": "image",
+  "input": {
+    "slides": [
+      "img-reject-bill.png"
+    ],
+    "caption": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K3"
+    ]
+  }
+}

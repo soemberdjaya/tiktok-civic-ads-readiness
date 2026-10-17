@@ -1,0 +1,19 @@
+id: id.uu-pdp
+title: "Law No. 27 of 2022 on Personal Data Protection (UU PDP)"
+url: https://peraturan.go.id/id/uu-no-27-tahun-2022
+# The HTML page changes on every load; the rule watcher uses the official PDF.
+watch_url: https://peraturan.go.id/files/Salinan+UU+Nomor+27+Tahun+2022.pdf
+jurisdiction: id
+source_updated: 2022-10
+bundled_at: 2026-10-17
+clauses:
+  - key: id.uu-pdp.consent
+    rubric: [L3]
+    kind: summary
+    text: "Art. 20–22: processing personal data needs a lawful basis, such as explicit consent. The controller must state the purpose, data types, retention period, and data subject rights."
+    applies_to: [text, image, video]
+  - key: id.uu-pdp.children
+    rubric: [L3, L4]
+    kind: summary
+    text: "Art. 25: processing a child’s personal data requires consent from a parent or guardian."
+    applies_to: [text, image, video]

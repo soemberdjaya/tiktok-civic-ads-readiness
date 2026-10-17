@@ -1,0 +1,24 @@
+{
+  "id": "party-landing-page",
+  "mode": "text",
+  "input": {
+    "script": "Kenali gerakan anak muda untuk perubahan.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": "Daftar jadi kader Partai Solidaritas Indonesia sekarang. Visi dan misi ketua umum kami."
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "mustAny": [
+      "K7",
+      "K1"
+    ]
+  }
+}

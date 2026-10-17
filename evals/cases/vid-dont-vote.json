@@ -1,0 +1,32 @@
+{
+  "id": "vid-dont-vote",
+  "mode": "video",
+  "input": {
+    "frames": [
+      "vid-dont-vote-0.jpg",
+      "vid-dont-vote-1.jpg",
+      "vid-dont-vote-2.jpg"
+    ],
+    "duration": 3,
+    "transcript": [
+      {
+        "start": 1,
+        "end": 3,
+        "text": "Jangan pilih wakil yang dukung RUU ini."
+      }
+    ],
+    "caption": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K2"
+    ]
+  }
+}

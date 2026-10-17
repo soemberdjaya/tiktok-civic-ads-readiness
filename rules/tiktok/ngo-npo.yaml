@@ -1,0 +1,19 @@
+# There is no issue-advocacy exception: approved NGOs remain subject to the
+# political content ban.
+id: tiktok.ngo-npo
+title: "TikTok: Non-Governmental Organization (NGO) and Non-Profit Organization (NPO) Advertisers"
+url: https://ads.tiktok.com/help/article/non-governmental-organization-and-non-profit-organization?lang=en
+jurisdiction: tiktok
+source_updated: 2026-09
+bundled_at: 2026-10-17
+clauses:
+  - key: tiktok.ngo-npo.no-political
+    rubric: [K4]
+    kind: quote
+    text: "In addition to paid political advertising, we do not allow advertising by any government, politician, or political party."
+    applies_to: [text, image, video]
+  - key: tiktok.ngo-npo.indonesia-entity
+    rubric: [K4]
+    kind: summary
+    text: "In Indonesia, only mass organisations with legal-entity status (associations or foundations) registered on the Ministry of Law AHU site may advertise, through a TikTok Sales Representative, with transparency documents that disclose fund allocation."
+    applies_to: [text, image, video]

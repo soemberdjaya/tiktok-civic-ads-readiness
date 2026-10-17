@@ -1,0 +1,25 @@
+{
+  "id": "statistics-data",
+  "mode": "text",
+  "input": {
+    "script": "Menurut data BPS, pengangguran usia muda naik 2 persen tahun ini. Apa artinya untukmu?",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "notBand": "blocked",
+    "mustNot": [
+      "K1",
+      "K2",
+      "K3"
+    ]
+  }
+}

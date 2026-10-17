@@ -1,0 +1,23 @@
+{
+  "id": "how-a-bill-passes",
+  "mode": "text",
+  "input": {
+    "script": "Bagaimana sebuah RUU dibahas sampai disahkan? Ini tahapannya.",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "notBand": "blocked",
+    "mustNot": [
+      "K3"
+    ]
+  }
+}

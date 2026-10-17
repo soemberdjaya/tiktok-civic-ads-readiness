@@ -1,0 +1,23 @@
+{
+  "id": "dont-abstain",
+  "mode": "text",
+  "input": {
+    "script": "Golput bukan pilihan. Datang ke TPS dan gunakan hak pilihmu!",
+    "caption": "",
+    "cta": "",
+    "landingUrl": "",
+    "landing": ""
+  },
+  "campaign": {
+    "objective": "Traffic",
+    "minAge": 18,
+    "coreMessage": "",
+    "advertiser": "NGO contoh"
+  },
+  "expect": {
+    "band": "blocked",
+    "must": [
+      "K2"
+    ]
+  }
+}
